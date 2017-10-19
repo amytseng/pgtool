@@ -6,8 +6,6 @@ import json
 import time
 import gspread
 
-AuthToken = "xoxp-2170902585-79013916674-248543737477-06884267d4b84725365126f0ad6421c3"
-BotToken = "xoxb-249274400247-AVDpFZJa1zcgjs2MrXawyEqW"
 slack_client = SlackClient(BotToken)
 
 AT_BOT = "@pghelper"
